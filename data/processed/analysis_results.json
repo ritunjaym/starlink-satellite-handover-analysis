@@ -1,0 +1,101 @@
+{
+  "connectivity_metrics": {
+    "avg_latency": 0.0,
+    "latency_std": 0.0,
+    "avg_packet_loss": 27.665188395050894,
+    "avg_downlink": 0.018605364404199607,
+    "avg_uplink": 0.011195766947833667,
+    "avg_snr": NaN,
+    "obstruction_ratio": 0.6371233077400709,
+    "outage_ratio": 2.788844621513944,
+    "downlink_stability": 1.7719590443432816,
+    "uplink_stability": 0.10248307563073716
+  },
+  "outage_events": [
+    {
+      "start": "1970-01-01T00:00:01.733514664",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733514694",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733514754",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733514784",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733514904",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733514934",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733514994",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733515024",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733515294",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733515324",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733516074",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733516134",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733516704",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733516734",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733519584",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733519614",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733520634",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733520664",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733523754",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733523784",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733524564",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733524594",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733525374",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733525404",
+      "duration": 0.0
+    },
+    {
+      "start": "1970-01-01T00:00:01.733527054",
+      "cause": "obstruction",
+      "end": "1970-01-01T00:00:01.733527084",
+      "duration": 0.0
+    }
+  ],
+  "alert_statistics": {},
+  "analysis_time": "2024-12-07T14:42:07.026376",
+  "total_records": 502,
+  "time_range": {
+    "start": "1970-01-01T00:00:01.733512114",
+    "end": "1970-01-01T00:00:01.733527144"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "throughput_analysis": {
+    "downlink": {
+      "basic_stats": {
+        "count": 502.0,
+        "mean": 0.018605364404199607,
+        "std": 0.032967943729324045,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0060230205078125,
+        "75%": 0.028745663085937498,
+        "max": 0.36660734375
+      },
+      "percentiles": {
+        "1%": 0.0,
+        "5%": 0.0,
+        "95%": 0.05931333125,
+        "99%": 0.17428332062500027
+      }
+    },
+    "uplink": {
+      "basic_stats": {
+        "count": 502.0,
+        "mean": 0.011195766947833667,
+        "std": 0.001147376630858945,
+        "min": 0.0086234892578125,
+        "25%": 0.0108548583984375,
+        "50%": 0.0108548583984375,
+        "75%": 0.0114085068359375,
+        "max": 0.018396216796875
+      },
+      "percentiles": {
+        "1%": 0.009445572265625,
+        "5%": 0.0098650029296875,
+        "95%": 0.0137237626953125,
+        "99%": 0.015629989892578133
+      }
+    },
+    "by_state": {
+      "CONNECTED": {
+        "downlink": {
+          "mean": 0.02535821343145968,
+          "std": 0.036259118826726805,
+          "count": 367
+        },
+        "uplink": {
+          "mean": 0.011266746091089066,
+          "std": 0.001074152122555137,
+          "count": 367
+        }
+      },
+      "NO_DOWNLINK": {
+        "downlink": {
+          "mean": 0.0,
+          "std": 0.0,
+          "count": 8
+        },
+        "uplink": {
+          "mean": 0.01055706298828125,
+          "std": 0.0006551865601322788,
+          "count": 8
+        }
+      },
+      "NO_PINGS": {
+        "downlink": {
+          "mean": 0.0,
+          "std": NaN,
+          "count": 1
+        },
+        "uplink": {
+          "mean": 0.0105864228515625,
+          "std": NaN,
+          "count": 1
+        }
+      },
+      "OBSTRUCTED": {
+        "downlink": {
+          "mean": 0.0010129879261363637,
+          "std": 0.005819172601876978,
+          "count": 33
+        },
+        "uplink": {
+          "mean": 0.011327416814630682,
+          "std": 0.0012109245498774575,
+          "count": 33
+        }
+      },
+      "SEARCHING": {
+        "downlink": {
+          "mean": 0.0,
+          "std": 0.0,
+          "count": 93
+        },
+        "uplink": {
+          "mean": 0.010930446352066532,
+          "std": 0.0013781328971041987,
+          "count": 93
+        }
+      }
+    },
+    "stability": {
+      "downlink_cv": 1.7719590443432816,
+      "uplink_cv": 0.10248307563073716,
+      "throughput_ratio": 1.6618213375546966
+    }
+  },
+  "obstruction_analysis": {
+    "basic_stats": {
+      "total_obstructed_ratio": 0.027888446215139442,
+      "avg_fraction_obstructed": 0.6371233077400709,
+      "max_fraction_obstructed": 0.6414827704429626
+    },
+    "performance_impact": {
+      "0": {
+        "downlink_throughput": {
+          "mean": 0.01881073148683642,
+          "std": 0.033310273291215525
+        },
+        "latency": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "drop_rate": 0.27585398717249027
+      },
+      "1": {
+        "downlink_throughput": {
+          "mean": 0.01144685466657366,
+          "std": 0.01624062671337838
+        },
+        "latency": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "drop_rate": 0.30446428592715946
+      }
+    },
+    "direction_correlation": {
+      "azimuth_correlation": 0.05328951793624157,
+      "elevation_correlation": 0.4832065842701919
+    }
+  },
+  "packet_loss_analysis": {
+    "basic_stats": {
+      "avg_loss_rate": 0.27665188395050894,
+      "loss_rate_std": 0.443792554702656,
+      "zero_loss_ratio": 0.7051792828685259
+    },
+    "by_state": {
+      "CONNECTED": {
+        "mean": 0.01823363962712665,
+        "std": 0.12155106975882286,
+        "count": 367
+      },
+      "NO_DOWNLINK": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 8
+      },
+      "NO_PINGS": {
+        "mean": 1.0,
+        "std": NaN,
+        "count": 1
+      },
+      "OBSTRUCTED": {
+        "mean": 0.9178030310255109,
+        "std": 0.2472708506465469,
+        "count": 33
+      },
+      "SEARCHING": {
+        "mean": 0.9989247309264316,
+        "std": 0.010369519419589749,
+        "count": 93
+      }
+    },
+    "correlations": {
+      "downlink_throughput_mbps": -0.29183508357182064,
+      "fraction_obstructed": -0.5251699248805438
+    }
+  },
+  "metadata": {
+    "analysis_time": "2024-12-07T15:43:01.198700",
+    "total_records": 502,
+    "time_range": {
+      "start": "2024-12-06T19:08:34",
+      "end": "2024-12-06T23:19:04"
+    },
+    "unique_states": [
+      "CONNECTED",
+      "OBSTRUCTED",
+      "SEARCHING",
+      "NO_DOWNLINK",
+      "NO_PINGS"
+    ]
+  }
+}
